@@ -1,0 +1,31 @@
+*{
+    color: white;
+    background: gray;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+header{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+li{
+    list-style-type: none;
+    margin-bottom: 30px;
+
+    
+}
+a{
+    text-decoration: none;
+    font-size: 20px;
+    border: 1px solid white;
+    border-radius: 15px;
+    padding: 10px;
+    transition: .5s ease;
+}
+h1{
+    font-weight: 900;
+}
+a:hover{
+    background: white;
+    color: gray;
+}

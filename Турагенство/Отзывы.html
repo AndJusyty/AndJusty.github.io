@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="photo/logo.png" type="image/x-icon">
+    <title>Gold Тур Russian</title>
+</head>
+<body>
+    <div class="header">
+        <a href="Тур.html">
+        <div class="container">
+            <div class="header-line">
+                <div class="header-logo">
+                    <img class="photo-log" src="photo/airplane.png">
+                </div>
+                <div class="logo-air">
+                        <div class="logo-airplane">
+                            <p class="gol-rus">Gold <br> Тур Russian</p>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </a>
+            <div class="header-line-logo">
+                        <div class="nav">
+                            <a class="nav-item" href="Тур.html">О нас</a>
+                            <a class="nav-item" href="Тур.html">Почему мы</a>
+                            <a class="nav-item" href="Тур.html">Контакты</a>
+                            <a class="nav-item" href="Тур.html">Подробнее</a>
+                        </div>
+                    </div>
+            </div>
+            <div class="hedr-block-div-one">
+            <div class="block-owerflou">
+                <div class="overfaul">
+            <div class="coments-new-site">
+                <div class="user-name">
+                    Ваше имя
+                    <input type="text" id="holder" class="holder" placeholder="Введите имя..." maxlength="50">
+                </div>
+            </div>
+            <div class="com-user">
+                <div class="com-user-name">
+                    Ваш комментарий
+                </div>
+                <!-- <input type ="text" class="com-fot" placeholder="Будьте первым..." maxlength="250"> -->
+                <textarea class="com-fot" id="com-fot" placeholder="Будьте первым..." maxlength="250"></textarea>
+            </div>
+                <div class="but-tton">
+                    <button class="buttomnnn" onclick="KnopkaOne()">Отправить</button>
+                </div>
+            </div>
+        </div>
+    </div>
+            <div class="div-class">
+                <div class="block-cont">                  
+                </div>
+            </div>
+        
+                <div class="coch-seti">
+                    <div class="bloc-svz">
+                        Для связи с нами:
+                        <div class="img-block-card">
+                            <img src="photo/Vk.png" hspace="20">
+                            <img src="photo/WhatApp.png" hspace="20">
+                            <img src="photo/Telerram.png" hspace="20">
+                        </div>
+                    </div>
+                    <div class="class-bloock-footer">
+                    <div class="svz-s-nami">
+                        Позвонить нам:
+                    </div>
+                    <div class="imge-footer">
+                        <p class="phonuu">+7(953)-663-54-89</p>
+                    </div>
+                </div>
+                <div class="cart-img">
+                    <div class="carta-yandex">
+            
+                    </div>
+                    <div class="text-title-footer">
+                        <h2>г.Кострома, ул Октябрьская площадь 1</h2>
+                    </div>
+                </div>
+                </div>
+            </div>
+            <script>
+    function KnopkaOne() {
+        let input = document.getElementById("holder").value;    
+        let inpuut = document.getElementById("com-fot").value;
+        if (input == "" || inpuut == "") {
+            alert("Заполните все поля.")
+        }
+        else{
+            alert("Комменарий отправлен на проверку.")
+           document.getElementById("holder").value = "";    
+           document.getElementById("com-fot").value = "";
+        }
+
+    }
+            </script>
+</body>
+</html>
